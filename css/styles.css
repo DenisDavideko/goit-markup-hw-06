@@ -939,16 +939,15 @@ a{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color:var(--color-white);
-  padding-left: 93px;
-  
-
 }
 .footer-form-icon{
   right: 28px;
   position: absolute;
-
-  
 }
+.footer-form{
+  margin-left: auto;
+}
+
 .footer-form-input::placeholder{
   font-size: 16px;
   line-height: 1.25;
@@ -979,6 +978,7 @@ a{
 }
 .footer-form-bloc{
   display: flex;
-  padding-left: 93px;
+  /* padding-left: 93px; */
   padding-top: 20px;
+  
 }
